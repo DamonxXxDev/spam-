@@ -1,4 +1,4 @@
-const settings = require("./config.json"); 
+const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 
@@ -29,7 +29,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '-ريب'){
-        message.channel.send('#rep')
+        message.channel.send('#credits')
     }
 });
 
@@ -84,5 +84,5 @@ if (message.content === '!spam') {
 
 
 
-client.login(settings.token);// لا تغير فيها شيء
- 
+client.login(process.env.TOKEN);// لا تغير فيها شيء
+client2.login(process.env.TOKEN2);// لا تغير فيها شيء
