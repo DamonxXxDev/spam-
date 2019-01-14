@@ -1,7 +1,7 @@
 {
   "name": "Kahrbaa",
   "version": "2.1.0",
-  "description": "-- Script Spam , Farm Credit By Matrex --",
+  "description": "-- Script Spam , Farm Credit By Kahrbaa --",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
