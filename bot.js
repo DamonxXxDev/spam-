@@ -1,8 +1,5 @@
-;
 const client = new Discord.Client();
-
-console.log("Welcome Again !");
-client.on('message', message => {
+ client.on('message', message => {
     if (message.content === '.') {
           let count = 0;
           let ecount = 0;
