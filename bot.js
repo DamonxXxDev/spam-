@@ -50,4 +50,4 @@ if (message.content === '.') {
       }
 });
  
-client.login("NTM0MzE4MTczMDQyOTAxMDEy.Dx4QjQ.DPs8r0NopYsxYpYIL0ff4OA4WiQ");
+client.login("NDU5Nzc2NzIyNjQ5MzUwMTY0.DwFbBQ.gEsC2CYA8xTO-QHME2ZKanG7b9s");
